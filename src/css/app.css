@@ -1,0 +1,61 @@
+
+nav {
+    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+.chart-header {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.chart-header button {
+  margin-left: 10px;
+}
+
+.chart-header #chartTitle {
+  font-weight: bold;
+}
+
+
+.bar-chart {
+  background-color: beige;
+}
+
+.line-chart {
+  background-color: beige;
+}
+
+.line-works {
+  background-color: beige;
+}
+
+
+/* Style the lines by removing the fill and applying a stroke */
+.line {
+  fill: none;
+  stroke: #ffab00;
+  stroke-width: 3;
+}
+/* Style the dots by assigning a fill and stroke */
+.dot {
+  fill: #ffab00;
+  stroke: #fff;
+}
+
+
+.save-check-show {
+  font-size: 1.4rem;
+  visibility: visible;
+  margin-left: 20px;
+  color: lightgray;
+}
+
+.save-check-hide {
+  visibility: hidden;
+  font-size: 1.4rem;
+  margin-left: 20px;
+  color: red;
+  }
